@@ -1,0 +1,32 @@
+<!-- 轮播图 -->
+
+<view>
+  <swiper indicator-dots="{{true}}" indicator-color="#f4c903" autoplay="true" circular="true">
+    <block wx:for="{{banner}}" wx:key="banner">
+      <swiper-item>
+        <image src='{{item.picUrl}}' mode="aspectFill" style="width:100%;height:100%;" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="category-panel1">
+  <view class="category-panel2">
+    <view bindtap='btnclick1' class="category-item">
+      <image class="category-item-image" src="/image/xiangji.png" />
+      <text class="category-item-text">开始点餐</text>
+    </view>
+  </view>
+
+  <view class="category-panel2">
+    <view bindtap='btnclick3' class="category-item">
+      <image class="category-item-image" src="/image/lianxi.png" />
+      <text class="category-item-text">排号等位</text>
+    </view>
+    <!-- <view class="category-item">
+      <button class="kf_button" open-type="contact" session-from="weapp">
+        <image class="category-item-image1" src="/image/weixin.png" />
+      </button>
+      <text class="category-item-text1">在线客服</text>
+    </view> -->
+  </view>
+</view>

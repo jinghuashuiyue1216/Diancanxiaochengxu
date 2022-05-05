@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/confirmOrder/confirmOrder",
+    "pages/mycomment/mycomment",
+    "pages/myOrder/myOrder",
+    "pages/me/me",
+    "pages/vip/vip",
+    "pages/buy/buy",
+    "pages/paihao/paihao"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f4c903",
+    "navigationBarTitleText": "点餐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#Fc0",
+    "selectedColor": "#f4c903",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/homeyes.png",
+        "iconPath": "image/homeno.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/meok.png",
+        "iconPath": "image/meno.png",
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

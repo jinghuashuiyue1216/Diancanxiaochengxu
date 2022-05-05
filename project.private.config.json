@@ -1,0 +1,92 @@
+{
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 1,
+          "name": "我的订单",
+          "pathName": "pages/myOrder/myOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "我的评价",
+          "pathName": "pages/mycomment/mycomment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "pages/buy/buy",
+          "pathName": "pages/buy/buy",
+          "query": "tableNum=1",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "确认订单",
+          "pathName": "pages/confirmOrder/confirmOrder",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "修改",
+          "pathName": "pages/change/change",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/change/change",
+          "pathName": "pages/change/change",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/mycomment/mycomment",
+          "pathName": "pages/mycomment/mycomment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/me/me",
+          "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/paihao/paihao",
+          "pathName": "pages/paihao/paihao",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/vip/vip",
+          "pathName": "pages/vip/vip",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
